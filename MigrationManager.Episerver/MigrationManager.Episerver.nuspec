@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Filip Branchetti</authors>
+    <owners>Filip Branchetti</owners>
+    <licenseUrl>https://github.com/filipbranchetti/MigrationManager.Episerver/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/filipbranchetti/MigrationManager.Episerver/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Migration manger for episerver</description>
+    <releaseNotes>Added MigrationManager for episerver</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Episerver MigrationManager</tags>
+    <dependencies>
+      <dependency id="EPiServer.Framework.AspNet" version="11.10.6" />
+      <dependency id="EPiServer.CMS.Core" version="11.10.6" />
+      <dependency id="MigrationManager" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Modules\_protected\MigrationManager\MigrationManager.zip" target="content\Modules\_protected\MigrationManager\"/>
+  </files>
+</package>

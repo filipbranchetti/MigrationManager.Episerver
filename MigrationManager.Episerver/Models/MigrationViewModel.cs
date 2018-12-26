@@ -1,4 +1,4 @@
-﻿namespace MigrationManager.Episerver.Site.Features.Migrations.Models
+﻿namespace MigrationManager.Episerver.Models
 {
     using System.Collections.Generic;
     using MigrationManager.Repository.Models;

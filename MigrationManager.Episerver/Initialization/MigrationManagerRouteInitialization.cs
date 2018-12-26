@@ -1,4 +1,4 @@
-﻿namespace MigrationManager.Episerver.Site.Features.Migrations.Initialization
+﻿namespace MigrationManager.Episerver.Initialization
 {
     using System.Web.Mvc;
     using System.Web.Routing;

@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationManager.Episerver", "MigrationManager.Episerver\MigrationManager.Episerver.csproj", "{75A2B5BA-52C1-4A4A-834C-A94152D80F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationManager.Episerver.Site", "MigrationManager.Episerver.Site\MigrationManager.Episerver.Site.csproj", "{982B67FA-54D8-48E6-81A4-76C921D02129}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{75A2B5BA-52C1-4A4A-834C-A94152D80F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75A2B5BA-52C1-4A4A-834C-A94152D80F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75A2B5BA-52C1-4A4A-834C-A94152D80F78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{982B67FA-54D8-48E6-81A4-76C921D02129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{982B67FA-54D8-48E6-81A4-76C921D02129}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{982B67FA-54D8-48E6-81A4-76C921D02129}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{982B67FA-54D8-48E6-81A4-76C921D02129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

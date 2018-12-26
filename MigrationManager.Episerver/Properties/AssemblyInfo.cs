@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MigrationManager.Episerver")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Migration Manger for episerver")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Filip Branchetti")]
 [assembly: AssemblyProduct("MigrationManager.Episerver")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]

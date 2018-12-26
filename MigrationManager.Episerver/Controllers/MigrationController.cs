@@ -1,4 +1,4 @@
-﻿namespace MigrationManager.Episerver.Site.Features.Migrations.Controllers {
+﻿namespace MigrationManager.Episerver.Controllers {
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -28,7 +28,7 @@
         public ActionResult Index()
         {
             var model = new MigrationViewModel {Migrations = GetMigrations()};
-            return View("/Features/Migrations/Views/Index.cshtml",model);
+            return View(GetViewLocation("Index"),model);
         }
 
         [HttpPost]
@@ -64,6 +64,12 @@
         private List<IDiscoveredMigration> GetMigrations()
         {
             return _migrationService.GetAllMigrationSteps().ToList();
+        }
+
+
+        private static string GetViewLocation(string viewName)
+        {
+            return $"{EPiServer.Shell.Paths.ProtectedRootPath}MigrationManager/Views/Migration/{viewName}.cshtml";
         }
     }
 }

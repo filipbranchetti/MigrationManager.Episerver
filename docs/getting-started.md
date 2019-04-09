@@ -2,9 +2,11 @@
 
 ### Installing Package
 
+
 Installation nowadays can't be more simpler as just adding NuGet package(s).
 
 ```
+Available on feed(https://nuget.episerver.com/feed/packages.svc/)
 PM> Install-Package MigrationManager.Episerver -Version 1.0.0
 ```
 
